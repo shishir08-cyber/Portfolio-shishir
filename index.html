@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shishir Tirth Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+  <!--  ----------------------------------------------------NAV BAR-------------------------------------------------- -->
+  <nav id="desktop-nav">
+    <div class="logo">SHISHIR <span class="tirth">TIRTH</span></div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#me">ABOUT ME</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#passion">MY PASSIONS</a></li>
+        <li><a href="#cinematography">CINEMATOGRAPHY</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="hamburger-nav">
+    <div class="logo">Shishir Tirth</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ---------------------------------------------------LANDING PAGE------------------------------------------------- -->
+  <main>
+    <div class="centered">
+      <div class="title">
+        <h1>SHISHIR TIRTH</h1><br>
+        <p style="font-size: 11px;color: white;">R  E  F  L  E  C  T  I  O  N  S</p>
+  </main>
+
+<!-------------------------------------------------------------END-------------------------------------------------------------->
+
+
+<!--  -----------------------------------------------ABOUT ME--------------------------------------------------------  -->
+
+<section id="me" style="height: 1px;"></section>
+    <p class="section__text__p1">EXPLORE</p>
+      <h1 style="text-align: center;">About Me</h1>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./IMAGES/profile_img.jpg" style="border-radius: 50%;" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Shishir Tirth</h1>
+        <p class="section__text__p2">AIML Enthusiast</p>
+        <div class="btn-container">
+          <a href="SHISHIR TIRTH resume.pdf" download>
+          <button
+            class="btn btn-color-2" onclick="location.href='./certificates/RESUME'">Resume          
+        </button></a>
+          <button class="btn btn-color-1" onclick="location.href=''">
+            Contact Info
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+        <div class="spacer"></div>
+<div class="text-container">
+  <p style="margin-left: 25%; margin-right: 25%;">
+    <b style="color: white;"> CSE (AI & ML) Student | Graphic Designer | Cinematographer </b><br><br>
+    Creativity meets code in my world. I'm a passionate graphic designer and photographer with a keen eye for aesthetics and detail.
+    Currently pursuing Computer Science with a specialization in AI & Machine Learning, I blend artistic vision with technical innovation to craft engaging visuals and smart digital experiences.
+    Whether it's designing sleek graphics, capturing the perfect shot, or building solutions, I'm all about turning ideas into impact.
+    <br><br>
+  </p>
+</div>
+
+<div class="spacer"></div>
+<!-------------------------------------------Magazine layout-------------------------------------------->
+  <section class="magazine-layout">
+  <div class="panel">
+    <img src="images/c4.jpg" alt="Leaf Closeup" />
+    <div class="text-block">
+      <h1>goals.</h1>
+      <p class="description">Let the creativity flow into your soul. Even the smallest textures are full of life and rhythm.</p>
+    </div>
+  </div>
+
+  <div class="panel">
+    <img src="images/c2.jpg" alt="Ocean" />
+    <div class="text-block">
+      <h1>values.</h1>
+      <p class="description">The infinite stillness — every ripple, every silence, has meaning.</p>
+    </div>
+  </div>
+
+  <div class="panel">
+    <img src="images/c3.jpg" alt="Leaf Macro" />
+    <div class="text-block">
+      <h1>focus.</h1>
+      <p class="description">craft with intent. Every phase is art. Every peice is unique.</p>
+    </div>
+  </div>
+</section>
+    </section>
+
+    <!----------------------------------------------------END----------------------------------------------------- -->
+
+<section>
+  <img src="IMAGES/bg4.jpg" alt="Background" style="width:100%; height:auto;">
+</section>
+
+    <!--------------------------------------------PROJECT section---------------------------------------------------->
+
+<section id="projects" style="height: 1px;"></section>
+<p class="section__text__p1">EXPLORE</p>
+<h1 style="text-align: center;">MY Projects</h1><br><br>
+
+<section class="projects">
+  <div class="project-grid custom-layout">
+
+    <!-- Row 1 -->
+    <div class="project-card square">
+      <img src="IMAGES/c1.jpg" alt="Text Sign" />
+      <h3>Text Sign</h3>
+      <p>A sleek design tool for the modern web.</p>
+      <div class="tags">
+        <span>Design Tool</span>
+        <span>Webflow</span>
+        <span>UI/UX</span>
+      </div>
+    </div>
+
+    <div class="project-card rect">
+      <img src="IMAGES/c2.jpg" alt="Multilingual Sleek" />
+      <h3>Multilingual Sleek</h3>
+      <p>Modern SaaS landing page featuring dark UI.</p>
+      <div class="tags">
+        <span>SaaS</span>
+        <span>Dark Theme</span>
+        <span>Minimal</span>
+      </div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="project-card rect">
+      <img src="IMAGES/c3.jpg" alt="App Dashboard" />
+      <h3>App Dashboard</h3>
+      <p>Clean and minimal admin UI for productivity tools.</p>
+      <div class="tags">
+        <span>Dashboard</span>
+        <span>UI Design</span>
+        <span>Minimal</span>
+      </div>
+    </div>
+
+    <div class="project-card square">
+      <img src="IMAGES/c4.jpg" alt="Analytics Board" />
+      <h3>Analytics Board</h3>
+      <p>Visual data and metrics dashboard for startups.</p>
+      <div class="tags">
+        <span>Analytics</span>
+        <span>Startup</span>
+        <span>Dark Mode</span>
+      </div>
+    </div>
+
+    <!-- Row 3 -->
+    <div class="project-card square">
+      <img src="IMAGES/c5.jpg" alt="Project X" />
+      <h3>Project X</h3>
+      <p>A unique creative experiment in motion and form.</p>
+      <div class="tags">
+        <span>Experimental</span>
+        <span>Visual</span>
+        <span>Motion</span>
+      </div>
+    </div>
+
+    <div class="project-card rect">
+      <img src="IMAGES/c6.jpg" alt="Portfolio Grid" />
+      <h3>Portfolio Grid</h3>
+      <p>Stylish display of works with interactive tiles.</p>
+      <div class="tags">
+        <span>Portfolio</span>
+        <span>Interactive</span>
+        <span>Grid</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!--------------------------------------------------SKILLS------------------------------------------------------------->
+
+ <section id="skills" style="height: 1px;"></section>
+<section class="skills-section">
+      <p class="section__text__p1">These are</p>
+  <center><h1>My Skills & Traits</h1></center>
+ <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./IMAGES/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Creative Arts</h3>
+              <p>
+              Cinematography<br>Observing Animals<br>Graphic designing<br>Art and Sketches
+              </p>
+            </div>
+            
+            <div class="details-container">
+              <img
+                src="./IMAGES/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Programming & Development</h3>
+              <p>Winner up in Innovation 2023<br>known for great work as a Cinematographer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./IMAGES/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Soft Skills</h3>
+              <p>10th<br>Diploma(CS)<br>B.tech (CS)AIML ongoing</p>
+            </div>
+          </div>
+
+</section>
+</section>
+
+<!--------------------------------------------------END------------------------------------------------------------->
+
+<!--------------------------------------------------PASSION------------------------------------------------------------->
+
+ <section id="passion">
+      <p class="section__text__p1">Browse My</p>
+      <center><h1 class="title">Expertise and passion</h1></center>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./IMAGES/h1.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+              <h4 class="experience-sub-title project-title"> Modeling </h4>
+              <div class="text-container">
+                <p>
+                  As a hobby, I also explore modeling, photo shoots, and aesthetic concepts. 
+                  It’s a space where I express confidence, creativity, through style.
+                  I even wish someday to work in the Industry as a professional.
+                </p>
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.instagram.com/shishirtirth08/'">
+                    EXPLORE
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./IMAGES/h2.jpg"
+                alt="Project 2"
+                class="project-img"
+                /><h4 class="experience-sub-title project-title">Cinematography</h4>
+                <div class="text-container">
+                  <p>
+                    I have a strong eye for visuals and storytelling. Whether it’s short films, vlogs, or reels, 
+                    I enjoy capturing emotions, angles, and edits that bring stories to life. I’m also confident 
+                    with basic video editing tools and transitions.                  </p>
+                </div>
+                <div class="btn-container">
+              <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.instagram.com/shishirtirth08/'">
+                  EXPLORE
+                </button>
+            </div>
+          </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./IMAGES/h7.png"
+                alt="Project 3"
+                class="project-img"
+              /><h4 class="experience-sub-title project-title">Graphic Designing</h4>
+              <div class="text-container">
+                <p>
+                  I enjoy creating visually compelling designs, digital artwork, 
+                  branding concepts,social media content. I’m comfortable with tools like Canva, 
+                  Figma, Adobe, and love experimenting with color, layout, and typography.                </p>
+              </div>
+              <div class="btn-container">
+              <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.instagram.com/shishirtirth08/'">
+                  EXPLORE
+                </button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--------------------------------------------------END------------------------------------------------------------->
+<section class="bg-text-section" style="height: 15%;">
+<div class="quote-section">
+  <div class="portfolio-quote">
+    <p class="main-text">Crafting ideas through colors and shapes.</p>
+    <p class="sub-text">Every design is a journey, every idea a step forward.</p>
+    <button class="cta-button">Scroll More </button>
+  </div>
+</div>
+</section>
+
+<section>
+  <img src="IMAGES/p2.jpg" alt="Background" style="width:100%; height:auto;">
+</section>
+<!-------------------------------------------------Magazine layout------------------------------------------------->
+<section id="cinematography" style="height: 1px;"></section>
+    <p class="section__text__p1">EXPLORE MY</p>
+      <center><h1 style="text-align: center;">Cinematography</h1><br><br></center>
+ <section class="magazine-grid-nine">
+  <div class="mag-card">
+    <img src="images/c10.jpg" alt="Scene 1" />
+    <div class="mag-content">
+      <h2>Perch.</h2>
+      <p class="subtext">Minimalist Wildlife</p>
+      <p class="desc"> "Stillness is its own kind of flight."</p>
+    </div>
+  </div>
+
+  <div class="mag-card">
+    <img src="images/c2.jpg" alt="Scene 2" />
+    <div class="mag-content">
+      <h2>Drift</h2>
+      <p class="subtext"> Aerial Seascape</p>
+      <p class="desc">"Silence isn’t empty—it’s full of answers beneath the waves."</p>
+    </div>
+  </div>
+
+  <div class="mag-card">
+    <img src="images/c3.jpg" alt="Scene 3" />
+    <div class="mag-content">
+      <h2>Fractal.</h2>
+      <p class="subtext">Botanical Macro</p>
+      <p class="desc">"Nature writes in patterns—we just have to read slower."</p>
+    </div>
+  </div>
+
+  <div class="mag-card">
+    <img src="images/c4.jpg" alt="Scene 4" />
+    <div class="mag-content">
+      <h2>Shine.</h2>
+      <p class="subtext">your moment</p>
+      <p class="desc">Even quiet sparks light up the dark.</p>
+    </div>
+  </div>
+
+  <div class="mag-card">
+    <img src="images/c5.jpg" alt="Scene 5" />
+    <div class="mag-content">
+      <h2>Realm.</h2>
+      <p class="subtext">Monochrome</p>
+      <p class="desc">"Hiding and revealing—like light through lace."</p>
+    </div>
+  </div>
+
+  <div class="mag-card">
+    <img src="images/c6.jpg" alt="Scene 6" />
+    <div class="mag-content">
+      <h2>Whirl.</h2>
+      <p class="subtext">beyond edges</p>
+      <p class="desc">"Every second spins a story..</p>
+    </div>
+  </div>
+
+    <div class="mag-card">
+    <img src="images/c8.jpg" alt="Scene 7" />
+    <div class="mag-content">
+      <h2>Breathe.</h2>
+      <p class="subtext">one pause</p>
+      <p class="desc">Stillness speaks louder than noise.</p>
+    </div>
+  </div>
+
+  <div class="mag-card">
+    <img src="images/c7.jpg" alt="Scene 8" />
+    <div class="mag-content">
+      <h2>Grow.</h2>
+      <p class="subtext">Minimalism</p>
+      <p class="desc">The balance of staying grounded and reaching out.</p>
+    </div>
+  </div>
+
+  <div class="mag-card">
+    <img src="images/c9.jpg" alt="Scene 9" />
+    <div class="mag-content">
+      <h2>Echo.</h2>
+      <p class="subtext">by example</p>
+      <p class="desc">Let your actions echo further than your voice.</p>
+    </div>
+  </div>
+</section>
+    </section>
+
+    <!----------------------------------------------------END----------------------------------------------------- -->
+
+<br><br><br><br>
+    <p class="section__text__p1">My</p>
+    <center><h1 class="title">Professional Highlights</h1></center>   <br><br>
+<section id="Professional-Highlights">
+     <div class="grid"> 
+      <div class="card">
+        <div class="image-space">
+          <img src="IMAGES/leetccode.gif" alt="LeetCode">
+        </div>
+        <h3>LeetCode</h3>
+        <p>
+          I use LeetCode to improve logical thinking and better understand technical constraints in UI/UX design.
+        </p>
+        <a href="https://leetcode.com/u/shishirtirth08/" target="_blank"><button>My LeetCode</button></a>
+      </div>
+       <div class="card">
+        <div class="image-space">
+          <img src="IMAGES/linkedin.gif" alt="LinkedIn">
+        </div>
+        <h3>LinkedIn</h3>
+        <p>
+          I showcase my professional journey, share updates, and network with creatives and recruiters. It's my hub for career growth.
+        </p>
+        <a href="https://www.linkedin.com/in/shishir-tirth-93795b291/" target="_blank"><button>My LinkedIn</button></a>
+      </div>
+    
+      <div class="card">
+        <div class="image-space">
+          <img src="IMAGES/github.jpg" alt="GitHub">
+        </div>
+        <h3>GitHub</h3>
+        <p>
+          I share code-based design projects, document design systems, and collaborate on UI/UX work with developers.
+        </p>
+        <a href="https://github.com/shishir08-cyber" target="_blank"><button>My GitHub</button></a>
+      </div>
+  
+    
+      <div class="card">
+        <div class="image-space">
+          <img src="IMAGES/instagram-new-gradient-logo-animation.jpg" alt="Instagram">
+        </div>
+        <h3>Instagram</h3>
+        <p>
+          I share my modeling shoots and graphic design projects, merging creativity with personal branding.
+        </p>
+        <a href="https://www.instagram.com/shishirtirth08/" target="_blank"><button>My INSTA</button></a>
+      </div>
+    </div>
+  </section>
+
+<!-------------------------------------------------------CONTACT----------------------------------------------------------->
+ <section id="contact" style="height: 1px;"></section>
+
+<section class="custom-section">
+  <div class="section-content">
+    <h2>"Have an Idea,Let’s Build Something Great Together."</h2>
+    <p>Reach out, and let’s make it happen.</p>
+    <a href="#" class="cta-button">Contact Now</a>
+  </div>
+</section>
+
+<!---->
+
+
+    <!------------------------------------------------------END----------------------------------------------------------->
+
+    <!------------------------------------------------------END NAV------------------------------------------------------->
+  <center><div class="logo">SHISHIR <span class="tirth">TIRTH</span></div></center>
+<div class="end-nav">
+   <h5 style="color: rgba(0, 0, 0, 0.589);"><br>
+    © 2025 ShishirTirth. All rights reserved.
+    All content and images on this website are the property of ShishirTirth and may not be copied, reproduced, 
+    distributed, or used in any manner without prior written permission.<br>
+    Website Designed and Created and owned by Shishir Tirth,including images and videos ,This website was handcrafted with HTML, CSS, and creativity.
+<br>
+    Thank you for visiting the site,feel free to contact...
+  </h5>
+   <h5>
+   <br>
+  </div>
