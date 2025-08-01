@@ -1117,8 +1117,41 @@ article .icon {
 .project-card.rect img {
   aspect-ratio: 4 / 5;
 }
+.project-card.full-portrait {
+  grid-column: span 2;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  margin: 2rem 0;
+  text-align: center;
+}
 
-/* FOOTER SECTION */
+.project-card.full-portrait img {
+  width: auto;
+  height: 100%;
+  max-height: 500px;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.project-card.full-horizontal {
+  grid-column: span 2;          /* spans entire row */
+  width: 100%;
+  aspect-ratio: 16 / 9;         /* ensures tall vertical image style */
+  margin: 2rem 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #fff;
+  text-align: center;
+}
+
+.project-card.full-horizontal img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 1rem;
+}
+
 
 footer {
   height: 26vh;
